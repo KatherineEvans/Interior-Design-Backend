@@ -1,0 +1,2 @@
+class UserWall < ApplicationRecord
+end
