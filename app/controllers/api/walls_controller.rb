@@ -13,7 +13,6 @@ class Api::WallsController < ApplicationController
       width: params[:width],
       user_id: current_user.id,
       measurement: params[:measurement],
-      photo: params[:photo]
       )
     if wall.save
       render json: {message: 'Wall saved successfully'}, status: :created

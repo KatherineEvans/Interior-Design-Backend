@@ -5,5 +5,4 @@ json.walls @walls.each do |wall|
   json.height wall.height
   json.width wall.width
   json.measurement wall.measurement
-  json.photo wall.photo
 end
