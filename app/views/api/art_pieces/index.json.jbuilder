@@ -5,4 +5,5 @@ json.art @art_pieces.each do |art|
   json.width art.width
   json.photo art.photo
   json.user art.user_id
+  json.measurement art.measurement
 end
